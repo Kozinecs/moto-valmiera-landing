@@ -18,10 +18,12 @@
     </script>
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body class="overflow-hidden">
-    <div class="h-screen w-screen bg-gradient-to-r from-slate-900 to-blue-950">
-      <main class="h-screen container mx-auto z-10 relative">
-        <div class="h-screen flex flex-col justify-start items-center py-6">
+  <body>
+    <div
+      class="min-h-screen h-full w-screen bg-gradient-to-r from-slate-900 to-blue-950 relative"
+    >
+      <main class="container mx-auto z-10 relative p-4">
+        <div class="flex flex-col justify-start items-center py-6">
           <div class="flex flex-col justify-start items-center">
             <img
               src="assets/moto_valmiera_logo.png"
@@ -29,12 +31,17 @@
               class="w-48 h-48 drop-shadow-xl"
             />
             <h1
-              class="kanit-semibold text-7xl text-slate-50 drop-shadow-xl hover:text-slate-500 transition-all ease-in-out duration-500"
+              class="kanit-semibold text-5xl md:text-7xl text-slate-50 drop-shadow-xl hover:text-slate-500 transition-all ease-in-out duration-500 text-center"
             >
               MOTO VALMIERA
             </h1>
           </div>
-          <div class="mt-12 mb-8 w-7/12 aspect-vide">
+          <h2
+            class="text-center kanit-regular text-3xl md:text-5xl text-slate-50 mt-4 drop-shadow-xl"
+          >
+            Jaunākais video mūsu YouTube kanālā
+          </h2>
+          <div class="mt-12 mb-8 w-full md:w-7/12 aspect-vide">
             <iframe
               class="w-full aspect-video"
               src="https://www.youtube.com/embed/zEFaewJ_cHk?si=gxH99aryx25pqu_p"
@@ -46,14 +53,14 @@
             ></iframe>
           </div>
 
-          <div class="grid grid-cols-4 gap-4 mt-auto mb-6">
+          <div class="grid grid-cols-4 gap-4 mt-8 mb-6">
             <a
               href="https://www.tiktok.com/@motovalmiera"
               target="_blank"
-              class="backdrop-blur-sm bg-white/5 rounded-lg transition-all ease-in-out duration-300 hover:scale-110 group custom-shadow"
+              class="backdrop-blur-md bg-white/5 rounded-lg transition-all ease-in-out duration-300 hover:scale-110 group custom-shadow"
             >
               <div
-                class="w-20 h-20 flex justify-center items-center group-hover"
+                class="w-16 h-16 md:w-20 md:h-20 flex justify-center items-center group-hover"
               >
                 <img
                   src="assets/social/tiktok.svg"
@@ -65,25 +72,128 @@
             <a
               href="https://www.facebook.com/groups/332907954535769"
               target="_blank"
-              class="backdrop-blur-sm bg-white/5 rounded-lg transition-all ease-in-out duration-300 hover:scale-110 group custom-shadow"
+              class="backdrop-blur-md bg-white/5 rounded-lg transition-all ease-in-out duration-300 hover:scale-110 group custom-shadow"
             >
               <div
-                class="w-20 h-20 flex justify-center items-center group-hover"
+                class="w-16 h-16 md:w-20 md:h-20 flex justify-center items-center group-hover"
               >
-                <img
-                  src="assets/social/fb.svg"
-                  alt="Facebook"
-                  class="m-4 group-hover:scale-110 group-hover:m-3 transition-all ease-in-out duration-300"
-                />
+                <svg
+                  class="m-4 group-hover:scale-110 group-hover:m-3 transition-all ease-in-out duration-300 group-hover:stroke-white"
+                  style="enable-background: new 0 0 64 64"
+                  version="1.1"
+                  viewBox="0 0 64 64"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <style type="text/css">
+                    .st0 {
+                      fill: #4267b2;
+                    }
+
+                    .st1 {
+                      fill: url(#SVGID_1_);
+                    }
+
+                    .st2 {
+                      fill: #ffffff;
+                    }
+
+                    .st3 {
+                      fill: #c2191e;
+                    }
+
+                    .st4 {
+                      fill: #1da1f3;
+                    }
+
+                    .st5 {
+                      fill: #fefe00;
+                    }
+
+                    .st6 {
+                      fill: #25d366;
+                      stroke: #ffffff;
+                      stroke-width: 5;
+                      stroke-miterlimit: 10;
+                    }
+
+                    .st7 {
+                      fill: #cb2027;
+                    }
+
+                    .st8 {
+                      fill: #0077b5;
+                    }
+
+                    .st9 {
+                      fill: url(#SVGID_2_);
+                    }
+
+                    .st10 {
+                      fill: url(#SVGID_3_);
+                    }
+
+                    .st11 {
+                      fill: #ff004f;
+                    }
+
+                    .st12 {
+                      fill: #00f7ef;
+                    }
+
+                    .st13 {
+                      fill: #5181b8;
+                    }
+
+                    .st14 {
+                      fill: #395976;
+                    }
+
+                    .st15 {
+                      fill: #f58220;
+                    }
+
+                    .st16 {
+                      fill: #e6162d;
+                    }
+
+                    .st17 {
+                      fill: #ff9933;
+                    }
+                  </style>
+                  <g id="guidlines" />
+                  <g id="FB">
+                    <path
+                      class="st0"
+                      d="M62,6v52c0,2.2-1.8,4-4,4H44V36h6v-8h-6V18c0-1.1,0.9-2,2-2h6V8h-8.1c-4.3,0-7.9,3.5-7.9,7.9V28h-6v8h6v26H6   c-2.2,0-4-1.8-4-4V6c0-2.2,1.8-4,4-4h52C60.2,2,62,3.8,62,6z"
+                    />
+                  </g>
+                  <g id="ig" />
+                  <g id="yt" />
+                  <g id="twitter" />
+                  <g id="snapchat" />
+                  <g id="WA" />
+                  <g id="Pinterrest" />
+                  <g id="Layer_9" />
+                  <g id="Layer_10" />
+                  <g id="Layer_11" />
+                  <g id="Layer_12" />
+                  <g id="Layer_13" />
+                  <g id="Layer_14" />
+                  <g id="Layer_15" />
+                  <g id="Layer_16" />
+                  <g id="Layer_17" />
+                </svg>
               </div>
             </a>
             <a
               href="https://www.instagram.com/motovalmiera/"
               target="_blank"
-              class="backdrop-blur-sm bg-white/5 rounded-lg transition-all ease-in-out duration-300 hover:scale-110 group custom-shadow"
+              class="backdrop-blur-md bg-white/5 rounded-lg transition-all ease-in-out duration-300 hover:scale-110 group custom-shadow"
             >
               <div
-                class="w-20 h-20 flex justify-center items-center group-hover"
+                class="w-16 h-16 md:w-20 md:h-20 flex justify-center items-center group-hover"
               >
                 <img
                   src="assets/social/ig.svg"
@@ -95,10 +205,10 @@
             <a
               href="https://www.youtube.com/@motovalmiera"
               target="_blank"
-              class="backdrop-blur-sm bg-white/5 rounded-lg transition-all ease-in-out duration-300 hover:scale-110 group custom-shadow"
+              class="backdrop-blur-md bg-white/5 rounded-lg transition-all ease-in-out duration-300 hover:scale-110 group custom-shadow"
             >
               <div
-                class="w-20 h-20 flex justify-center items-center group-hover"
+                class="w-16 h-16 md:w-20 md:h-20 flex justify-center items-center group-hover"
               >
                 <img
                   src="assets/social/yt.svg"
@@ -113,7 +223,7 @@
       <img
         src="assets/motorcycle.png"
         alt="Motorcycle"
-        class="absolute bottom-0 left-0 motorcycle"
+        class="absolute bottom-0 left-0 motorcycle "
       />
     </div>
   </body>
